@@ -14,8 +14,8 @@
  * limitations under the License.
  **/
  
- module CZlib {
-    header "shim.h"
+module minizip {
+    umbrella header "Sources/include/minizip.h""
     link "minizip"
     export *
  }
