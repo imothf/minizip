@@ -15,7 +15,7 @@
  **/
  
 module minizip {
-    umbrella header "Sources/include/minizip.h"
-    link "minizip"
+    umbrella header "minizip.h"
+    link "z"
     export *
  }

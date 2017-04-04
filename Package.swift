@@ -17,10 +17,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "minizip",
-    providers: [
-        .Apt("minizip")
-    ],
+    name: "CMinizip",
     dependencies: [
         .Package(url: "https://github.com/IBM-Swift/CZlib", majorVersion: 0, minor: 1)
     ]
