@@ -4,4 +4,5 @@
 #include "unzip.h"
 #include "crypt.h"
 #include "ioapi.h"
+#include "zconf.h"
 #endif
